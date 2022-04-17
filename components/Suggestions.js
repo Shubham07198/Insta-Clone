@@ -38,9 +38,9 @@ function Suggestions() {
           />
           <div className="ml-4 flex-1">
             <h2 className="text-sm font-semibold">
-              {profile?.firstName}{" "}{profile?.lastName}
+              {profile?.firstName}{" "}
               <h3 className="truncate text-sm text-gray-400">
-                From {profile?.company?.name}
+                ~ {profile?.lastName}
               </h3>
             </h2>
           </div>
