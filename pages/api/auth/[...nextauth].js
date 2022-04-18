@@ -10,6 +10,11 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
+  theme:{
+    logo:"https://links.papareact.com/sq0",
+    brandColor:"#F13287",
+    colorScheme:"dark"
+  },
   callbacks:{
     async session({
       session,token,user
